@@ -40,7 +40,7 @@ nav ul li a{
     text-transform: capitalize;
 }
 nav ul li a:hover{
-    color: #f9004d;
+    color: white;
     transition: .4s;
 }
 .content{

@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.profile{
+    height: 15vh;
+    width: 100%;
+   
+    background-color:#f9004d;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left:5% ;
+    
+}
+#logo{
+    color:black;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor:pointer;
+    /* font-family:'Courier New', Courier, monospace; */
+    font-weight: bold;
+}
+span{
+    color: white;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+.content{
+    position: absolute;
+    top: 30%;
+    left:42%;
+  
+}
+h1{
+    color: #f9004d;
+    margin: 20px -2px 20px;
+    font-size: 40px;
+    
+}
+h4{
+    color: black;
+    letter-spacing: 2px;
+    font-size:20px ;
+}
+.about{
+    width: 100%;
+    padding:50px 0px;
+    background-color:white;
+    margin-top: 200px;
+}
+.about-text{
+    color:black;
+    width:450px;
+    text-align: justify;
+
+}
+.about img{
+    height: auto;
+    width: 200px;
+}
+.image{
+    width:1300px ;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.about-text h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    color: #f9004d;
+}
+.about-text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 20px;
+    margin-bottom: 45px;
+    margin-right: -60px;
+    word-spacing: 2px;
+}
+#but-ton{
+    background-color:#f9004d;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    
+   
+}
+#but-ton:hover{
+    background-color:transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.outerbox{
+    width:100%;
+    height:200px;
+    
+ 
+    
+
+    margin-top: 10px;
+}
+.skilltext{
+    width:450px ;
+    color: black;
+    margin-left: 90px;
+    margin-right: 100px;
+    float: left;
+    padding: 10px;
+    margin-bottom: 65px;
+    margin-top: 45px;
+}
+.skillimage{
+    
+    
+    float: right;
+    width: 50px;
+    height: auto;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+.skilltext h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 5%;
+    margin-left: 55%;
+    color: #f9004d;
+
+}
+.skill2{
+    float: right;
+    padding: 10px;
+    position: relative;
+    margin: 7px -102px 10px 0px;
+}
+.skill1{
+    
+    padding: 10px;
+    position: absolute;
+    margin: 10px 10px 10px 10px;
+}
+.skill1 li{
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.skill2 li{
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing:1px ;
+}
+.education{
+    
+    margin-top: 140px;
+    height: 50vh;
+    padding: 50px;
+}
+.edu-image{
+    
+    height:40vh ;
+    width: 25%;
+    padding:30px ;
+    margin-left: 100px;
+    margin-top:30px;
+}
+#icon{
+    height:40vh ;
+    width:80%;
+}
+.edu-text{
+    float: right;
+    text-align: justify;
+    
+    margin-top:-350px;
+    margin-right:80px ;
+    padding-left: 80px;
+    padding-bottom: 40px;
+    padding-right: 10px;
+    margin-left: 20px;
+}
+.edu-text h2{
+    font-size: 40px;
+    margin-bottom:20px;
+    margin-top: 5px;
+    text-align: center;
+    color: #f9004d;
+}
+.edu{
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.edu h5{
+    font-size: 22px;
+}
+.contact-box{
+    width: 400px;
+    box-shadow: 0 0 20px 0 #999;
+    margin-top: -200px;
+    transform: translate(70%,70%);
+    
+    float: right;
+}
+form{
+    margin: 30px;
+}
+.input-field{
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #f9004d;
+    border-radius: 14px;
+    outline: none;
+}
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+}
+.my_login h2{
+    text-align: center;
+    font-size: 40px;
+    color: #f9004d;
+}
+#login{
+    background-color:#f9004d;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    width: 100%;
+}
+#login :hover{
+    background-color:transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+footer{
+    /* position:absolute; */
+    /* bottom: 0;
+    left: 0;
+    right: 0; */
+    background-color: black;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: white;
+    font-family: open sans-serif;
+    margin-top: 660px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.navs{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.navs li{
+    margin: 0 10px;
+}
+.navs a{
+    text-decoration: none;
+    color:#f9004d;
+}
+
+.footer-bottom{
+    background: black;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
